@@ -23,5 +23,9 @@ names = ['echo', 'echo', 'sleep', 'sleep']
 max_processes = 2
 
 # do it!
-multi.do_processes(cmds, names = names, max_processes = max_processes, logtime=3)
+# do it!
+multi.do_processes(
+    cmds, names = names, max_processes = max_processes, 
+    logtime = 2 # rather shorter than sensible, but just as an example...
+)
 ```
